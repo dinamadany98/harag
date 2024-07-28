@@ -1,0 +1,73 @@
+ 
+    .featured__item:hover   .featured__item__pic__hover {
+      bottom: 50px;
+    }
+    
+    .featured__item__pic {
+       height: 20;
+    margin-left:2px; 
+      position: relative;
+      overflow: hidden;
+      background-position: center center;
+    }
+    
+    .featured__item__pic__hover {
+      position: absolute;
+      bottom: -60px;
+      width: 100%;
+      /* text-align: center; */
+      margin-bottom: -12px;
+      margin-left: 10px;
+      -webkit-transition: all, 0.5s;
+      -moz-transition: all, 0.5s;
+      -ms-transition: all, 0.5s;
+      -o-transition: all, 0.5s;
+      transition: all, 0.5s;
+    }
+    
+    .featured__item__pic__hover li {
+      list-style: none;
+      display: inline-block;
+      margin-right: 2px;
+    }
+    
+    
+    
+    .featured__item__pic__hover li:hover button{
+      background:red;
+      border-color: #7fad39;
+    }
+    
+    .featured__item__pic__hover li:hover a i {
+      color: #ffffff;
+      /* transform: rotate(360deg); */
+    }
+    
+    .featured__item__pic__hover li a {
+      font-size: 16px;
+      color: #1c1c1c;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      text-align: center;
+      border: 1px solid #ebebeb;
+      background: #ffffff;
+      display: block;
+      border-radius: 50%;
+      -webkit-transition: all, 0.5s;
+      -moz-transition: all, 0.5s;
+      -ms-transition: all, 0.5s;
+      -o-transition: all, 0.5s;
+      transition: all, 0.5s;
+    }
+    
+    .featured__item__pic__hover li a i {
+      /* position: relative;
+      transform: rotate(0);
+      -webkit-transition: all, 0.3s;
+      -moz-transition: all, 0.3s;
+      -ms-transition: all, 0.3s;
+      -o-transition: all, 0.3s;
+      transition: all, 0.3s; */
+    }
+    
